@@ -3,6 +3,7 @@
 <meta charset="utf-8">
 </head>
 <body>
+<h1>Bucia Fajna strona</h1>
 <table width=65% border="1" align="center">
 <tr>
 <td colspan="3" align="center">
@@ -35,21 +36,14 @@ Gdańsk 01.02.23r.
 <td width=18% align="center">
  <b>prawe menu</b>
  <ul>
- <li>
-<A HREF="plik_bucia.html" target="obszar_glowny">Kliknij, aby ściągnąć plik</A> <br
- </li>
- <li>
- <A HREF="tabela_bucia.html" target="obszar_glowny">Link do tabeli</A> <br>
- </li>
- <li>
- <A HREF="formularz_bucia.html" target="obszar_glowny">Link do formularza</A> <br>
- </li>
- <li>
- <A HREF="poczta_bucia.html" target="obszar_glowny">Kliknij, aby wysłać pocztę</a>
- </li>
- <li>
- <a href="zad1-6.html" target="obszar_glowny">kliknij, aby przejść do zadań od Z1 do Z6</a>
- </li>
+ <map id="mapa_bucia">
+<area shape="rect" coords="28,67,84,31" href="plik_bucia.html" target="obszar_glowny">
+<area shape="poly" coords="35,123,73,123,54,89" href="tabela_bucia.html" target="obszar_glowny">
+<area shape="circle" coords="53,166,27" href="formularz_bucia.html" target="obszar_glowny">
+<area shape="rect" coords="23,231,92,195" href="poczta_bucia.html" target="obszar_glowny">
+<area shape="circle" coords="55,266,26" href="zad1-6.html" target="obszar_glowny">
+</map>
+ <img src="mapa.gif" alt="tutaj znajdują się linki" usemap="#mapa_bucia">
  </ul>
  </td>
 </tr>
